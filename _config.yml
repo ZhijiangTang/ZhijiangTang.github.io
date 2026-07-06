@@ -22,7 +22,7 @@ repository               : "ZhijiangTang/ZhijiangTang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Zhijiang Tang (唐治江)"
   pronouns         :
   bio              : "M.S. student in AI at UCAS (Hangzhou Institute for Advanced Study). LLM post-training, multimodal evaluation, and agent RL."

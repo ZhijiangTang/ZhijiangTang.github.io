@@ -10,7 +10,7 @@ paperurl: 'https://arxiv.org/pdf/2602.21655'
 venue_short: "CVPR 2026"
 venue_badge: cvpr-26
 header:
-  teaser: pubs/cccaption.svg
+  teaser: pubs/cccaption.jpg
 citation: 'Tang, Z., Wang, L., Qi, J., Jiang, W., Hou, P., Zeng, A., & Huang, J. (2026). &quot;CCCaption: Dual-Reward RL for Complete and Correct Image Captioning.&quot; <i>CVPR 2026</i>.'
 ---
 

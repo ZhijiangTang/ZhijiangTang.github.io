@@ -5,6 +5,28 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
+feature_row:
+  - image_path: pubs/selected/cccaption.jpg
+    alt: "CCCaption dual-reward RL framework"
+    title: "CCCaption: Dual-Reward RL for Complete and Correct Image Captioning"
+    excerpt: >
+      **CVPR 2026 (accepted)** · First author. Proposes **completeness** and **correctness** dual rewards with dynamic query sampling for efficient RL post-training of image captioning. CCCaption-2B achieves capability comparable to Qwen3-VL-32B.
+    url: https://arxiv.org/abs/2602.21655
+    btn_label: "Paper"
+  - image_path: pubs/selected/longcode.jpg
+    alt: "Long-CODE evaluation framework"
+    title: "Long-CODE: Isolating Pure Long-Context as an Orthogonal Dimension in Video Evaluation"
+    excerpt: >
+      **ACM MM 2026 (under review)** · First author. Decouples long-context video quality from short-video metrics via **Dynamic Structure Alignment** and MLLM-based semantic scoring. The Long-CODE benchmark isolates narrative and causal consistency with strong human correlation (Spearman 0.76).
+    url: https://arxiv.org/abs/2604.17428
+    btn_label: "Paper"
+  - image_path: pubs/selected/ecg.jpg
+    alt: "ECG time-series benchmark overview"
+    title: "A Comprehensive Benchmark for Electrocardiogram Time-Series"
+    excerpt: >
+      **ACM MM 2025 (accepted)** · First author. Unified benchmark spanning **classification, detection, forecasting, and generation** for ECG signals. Introduces the FFD metric and PSSM model, improving over SOTA by +1.6% to +67.2% across tasks.
+    url: https://arxiv.org/abs/2507.14206
+    btn_label: "Paper"
 ---
 
 I am a Master's student in **Artificial Intelligence** at the [University of Chinese Academy of Sciences (UCAS)](https://www.ucas.ac.cn/), [Hangzhou Institute for Advanced Study](https://www.hias.ucas.ac.cn/) (expected graduation: July 2027). I work with **Prof. Jianqiang Huang** (黄建强) at the [Computer Network Information Center, CAS](https://www.cnic.cas.cn/), on AI for science — multimodal models, post-training, and rigorous evaluation. I received my B.S. in Data Science and Big Data Technology from [Nankai University](https://www.nankai.edu.cn/) in 2024 (recommended admission).
@@ -28,11 +50,9 @@ News
 
 Selected publications
 ======
-See the full list on [Publications](/publications/). Representative work:
+Representative work with method overviews. See the [full publication list](/publications/).
 
-* **CCCaption** — Dual-reward RL for complete and correct image captioning (**CVPR 2026**, accepted)
-* **Long-CODE** — Isolating long-context quality in video evaluation (**ACM MM 2026**, under review)
-* **ECG Benchmark** — Unified benchmark for electrocardiogram time-series (**ACM MM 2025**, accepted)
+{% include feature_row type="left" %}
 
 Open source
 ======

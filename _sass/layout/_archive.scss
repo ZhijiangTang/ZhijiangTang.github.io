@@ -277,10 +277,10 @@
 .pub__thumb {
   flex: 0 0 auto;
   width: 100%;
-  max-width: 180px;
+  max-width: 220px;
 
   @include breakpoint($small) {
-    width: 140px;
+    width: 200px;
   }
 
   img {

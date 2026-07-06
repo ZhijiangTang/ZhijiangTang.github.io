@@ -10,6 +10,7 @@ venue_short: "ACM MM 2025"
 venue_badge: acmmm-25
 header:
   teaser: pubs/ecg.svg
+paperurl: 'https://dl.acm.org/doi/abs/10.1145/3746027.3754729'
 citation: 'Tang, Z., Qi, J., Zheng, Y., & Huang, J. (2025). &quot;A Comprehensive Benchmark for Electrocardiogram Time-Series.&quot; <i>ACM MM 2025</i>.'
 ---
 

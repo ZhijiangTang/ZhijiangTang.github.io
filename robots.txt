@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://zhijiangtang.github.io//sitemap.xml
+Sitemap: https://zhijiangtang.github.io/sitemap.xml

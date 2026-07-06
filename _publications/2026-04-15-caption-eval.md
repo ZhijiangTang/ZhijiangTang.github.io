@@ -6,6 +6,10 @@ permalink: /publication/2026-caption-eval
 excerpt: 'Objective caption evaluation via semantic-equivalent image reconstruction.'
 date: 2026-04-15
 venue: 'Neural Information Processing Systems (NeurIPS)'
+venue_short: "NeurIPS 2026"
+venue_badge: neurips-26
+header:
+  teaser: pubs/caption-eval.svg
 citation: 'Tang, Z., Qi, J., Tang, K., Zheng, Y., & Huang, J. (2026). &quot;A Reconstruction-Based Framework for Caption Evaluation Beyond Reference Captions.&quot; <i>NeurIPS 2026</i> (under review).'
 ---
 

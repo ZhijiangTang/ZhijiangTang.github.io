@@ -243,3 +243,124 @@
     }
   }
 }
+
+/*
+   Publication list with thumbnails
+   ========================================================================== */
+
+.pub__item {
+  margin-bottom: 1.75em;
+  padding-bottom: 1.75em;
+  border-bottom: 1px solid var(--global-border-color);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.pub__item-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  @include breakpoint($small) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.pub__thumb {
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 180px;
+
+  @include breakpoint($small) {
+    width: 140px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: $border-radius;
+    border: 1px solid var(--global-border-color);
+    background: var(--global-bg-color);
+  }
+
+  a:hover img {
+    box-shadow: 0 0 10px rgba(#000, 0.2);
+  }
+}
+
+.pub__badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 88px;
+  padding: 0.75em;
+  border-radius: $border-radius;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-5;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: var(--global-link-color);
+
+  &:hover {
+    opacity: 0.92;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.pub__badge--cvpr-26,
+.pub__badge--cvpr {
+  background: #004b87;
+}
+
+.pub__badge--neurips-26,
+.pub__badge--neurips {
+  background: #5c3d8a;
+}
+
+.pub__badge--acmmm-25,
+.pub__badge--acmmm-26,
+.pub__badge--acmmm {
+  background: #b31b1b;
+}
+
+.pub__badge--sci,
+.pub__badge--journal {
+  background: #2e7d32;
+}
+
+.pub__body {
+  flex: 1 1 auto;
+  min-width: 0;
+
+  .archive__item-title {
+    margin-top: 0;
+    font-size: $type-size-4;
+  }
+}
+
+.pub__meta {
+  margin: 0 0 0.5em;
+  font-size: $type-size-6;
+  color: var(--global-text-color-light);
+}
+
+.pub__links {
+  margin: 0.5em 0 0;
+
+  .btn {
+    margin: 0 0.5em 0.5em 0;
+  }
+}
+
+.pub__citation {
+  margin: 0.75em 0 0;
+  color: var(--global-text-color-light);
+}

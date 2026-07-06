@@ -7,6 +7,10 @@ excerpt: 'Dual-reward reinforcement learning for improving multimodal caption co
 date: 2026-01-01
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://arxiv.org/pdf/2602.21655'
+venue_short: "CVPR 2026"
+venue_badge: cvpr-26
+header:
+  teaser: pubs/cccaption.svg
 citation: 'Tang, Z., Wang, L., Qi, J., Jiang, W., Hou, P., Zeng, A., & Huang, J. (2026). &quot;CCCaption: Dual-Reward RL for Complete and Correct Image Captioning.&quot; <i>CVPR 2026</i>.'
 ---
 

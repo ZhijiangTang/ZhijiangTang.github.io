@@ -9,7 +9,7 @@ venue: 'Neural Information Processing Systems (NeurIPS)'
 venue_short: "NeurIPS 2026"
 venue_badge: neurips-26
 header:
-  teaser: pubs/caption-eval.svg
+  teaser: pubs/caption-eval.jpg
 citation: 'Tang, Z., Qi, J., Tang, K., Zheng, Y., & Huang, J. (2026). &quot;A Reconstruction-Based Framework for Caption Evaluation Beyond Reference Captions.&quot; <i>NeurIPS 2026</i> (under review).'
 ---
 
